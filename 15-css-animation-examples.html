@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Functional animation examples</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+	<link rel="stylesheet" type="text/css" href="15-css-animation-examples.css">
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	<script src="15-css-animation-examples.js" async></script>
+</head>
+<body>
+	<div id="spinner-bg" class="bg">
+		<img id="spinner" src="spinner.svg" alt="spinner">
+	</div>
+	<div id="progress-bg" class="bg">
+		<progress id="progress-bar" value="0" max="100">
+	</div>
+	<main>
+		<h1>CSS Animation examples</h1>
+		<h2>Active button</h2>
+		<a href="#" class="btn btn-blue btn-feedback">Add to cart</a>
+		<h2>Activate spinner</h2>
+		<a href="#" id="activate-spinner" class="btn btn-green btn-feedback">Spinner is go for launch</a>
+		<h2>Activate progress bar</h2>
+		<a href="#" id="activate-progress-bar" class="btn btn-red btn-feedback">Do stuff that makes me wait</a>
+		<!-- <h2>Misbehaving</h2>
+		<a href="#" class="btn btn-green btn-feedback btn-tease">Click me!</a> -->
+	</main>
+</body>
+</html>
